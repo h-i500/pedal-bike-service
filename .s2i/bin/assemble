@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+echo "Updating CA certificates..."
+update-ca-trust extract
+
+echo "Running default S2I build process..."
+exec /usr/libexec/s2i/assemble
