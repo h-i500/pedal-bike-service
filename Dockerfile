@@ -32,4 +32,4 @@ RUN mvn clean package -DskipTests
 USER 1001
 
 # JARファイルの実行
-CMD ["java", "-jar", "target/pedal-bike-service-1.0-SNAPSHOT-runner.jar"]
+CMD ["java", "-jar", "target/bike-service-1.0.0-SNAPSHOT-runner.jar"]
