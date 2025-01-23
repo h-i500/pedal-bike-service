@@ -1,4 +1,17 @@
+# 元の記載
+# *
+# !target/*-runner
+# !target/*-runner.jar
+# !target/lib/*
+# !target/quarkus-app/*
+
+# すべてのファイルを除外する
 *
+
+# 重要なファイルを明示的に含める
+!pom.xml
+!src/
+!Dockerfile
 !target/*-runner
 !target/*-runner.jar
 !target/lib/*
