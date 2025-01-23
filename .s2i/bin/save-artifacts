@@ -1,7 +1,0 @@
-#!/bin/bash
-# Save Maven dependencies to speed up subsequent builds
-if [ -d "/home/jboss/.m2/repository" ]; then
-  tar czf /tmp/artifacts.tar.gz -C /home/jboss/.m2 repository
-  echo "Artifacts saved"
-fi
-
