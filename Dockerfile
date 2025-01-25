@@ -1,5 +1,5 @@
 # ベースイメージとして Red Hat UBI 8 OpenJDK 17 を使用
-FROM registry.access.redhat.com/ubi8/openjdk-17
+FROM registry.access.redhat.com/ubi8/openjdk-17:latest
 
 # rootユーザーに切り替え
 USER root
